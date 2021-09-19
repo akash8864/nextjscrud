@@ -2,9 +2,9 @@ import React from "react";
 import { AppProps } from "next/app";
 import "tailwindcss/tailwind.css";
 import "@styles/global.scss";
-
+import Layout from '../src/components/Layout'
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
-  return <Component {...pageProps} />;
+  return <Layout><Component {...pageProps} /></Layout>;
 }
 
 export default MyApp;

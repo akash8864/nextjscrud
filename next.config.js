@@ -1,5 +1,5 @@
 const withPlugins = require("next-compose-plugins");
 
 module.exports = withPlugins([], {env: {
-    MONGOURI: 'mongodb://localhost:27017/notes'
+    MONGOURI: 'mongodb+srv://akash123:akash123@cluster0.yra19.mongodb.net/note?retryWrites=true&w=majority'
   }});

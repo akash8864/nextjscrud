@@ -3,7 +3,7 @@ import React from 'react'
 import {signIn,signOut,useSession} from 'next-auth/client'
 const Navbar = () =>{
     const [session,loading]=useSession()
-    console.log(session,loading)
+    //console.log(session,loading)
   return(    
      <nav className="bg-green-400">
     <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
